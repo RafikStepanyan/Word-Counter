@@ -8,6 +8,7 @@ import { colorType } from './type';
 function App(): JSX.Element {
   const [state, dispatch] = useReducer(reducer, initialState);
   const [text, setText] = useState('');
+  //test
   return (
     <div className="app" style={{ background: state.color }}>
       <div className='control'>
