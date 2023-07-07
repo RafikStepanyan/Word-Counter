@@ -42,7 +42,7 @@ export const reducer = (state: stateType, action: actionType): stateType => {
                     sentences: sentenceCount,
                 };
             }
-            return state;
+            return ...state;
         case 'reset':
             return {
                 ...state,
