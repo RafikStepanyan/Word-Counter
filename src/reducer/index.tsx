@@ -62,6 +62,6 @@ export const reducer = (state: stateType, action: actionType): stateType => {
                 ...state
             };
         default:
-            return state;
+            return ...state;
     }
 };
